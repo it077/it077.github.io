@@ -1,0 +1,29 @@
+@import url('reset.css');
+@import url('cabecalho.css');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital@1&display=swap');
+
+body {
+    box-sizing: border-box;
+    background-color: black;
+    color: #5AC14C;
+    font-family: 'Krona One', sans-serif;
+
+}
+
+.titulo
+{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+    height: 35em;
+    width: 80em;
+    
+}

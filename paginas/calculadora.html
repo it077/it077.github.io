@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/logo2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/calculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__posicionamento">
+            <a class="cabecalho__posicionamento__designer" href="../index.html">Home</a>
+            <a class="cabecalho__posicionamento__designer" href="calculadora.html">Calculadora</a>
+            <a class="cabecalho__posicionamento__designer" href="cronometro.html">Cronômetro</a> 
+            <a class="cabecalho__posicionamento__designer" href="contato.html">Contato</a> 
+        </nav>
+    </header>
+    <main>
+        <div class="cabecalho">
+            <div class="posicionamento">
+                <div class="posicionamentoDoCabecalhoeDaLogo">
+                <img src="../imagens/ITOTIPS.png" class="logoIto" alt="Logo ito">
+                <a class="designerDoCabecalho" href="index.html">CALCULADORA</a>
+                <div class="designerDaCalculadora_Corpo">
+                    <div class="designerDaCalculadora_Visor">
+                        <span class="numerosDoVisor" id="visor"></span>
+                    </div>
+                    <div class="designerDaCalculadora_Teclas">
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="ligaDesliga()" ><img src="../imagens/of.png" width="20px"></button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="apagar()">AC</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="apagar1()"><</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="botaoOperador('/')">/</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="botaoSelecionado(7)">7</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="botaoSelecionado(8)">8</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="botaoSelecionado(9)">9</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="botaoOperador('*')">x</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="botaoSelecionado(4)">4</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="botaoSelecionado(5)">5</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="botaoSelecionado(6)">6</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="botaoOperador('-')">-</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="botaoSelecionado(1)">1</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="botaoSelecionado(2)">2</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="botaoSelecionado(3)">3</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="botaoOperador('+')">+</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="botaoSelecionado(0)">0</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="botaoOperador(',')">,</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="porcentagem()">%</button></div>
+                        <div class="alinhamentoDosBotoes"><button class="designerBotoes" onclick="calcular()">=</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <script type="text/javascript" src="../scripts/calculadora.js"></script>
+    </main>  
+</body>
+</html>

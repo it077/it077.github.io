@@ -1,0 +1,90 @@
+@import url('cabecalho.css');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital@1&display=swap');
+
+.posicionamento {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px
+}
+
+
+body
+{
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Krona One', sans-serif;
+    
+}
+
+.container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+    height: 100vh;
+    width: 100vw;;
+    
+}
+
+.titulo
+{
+    font-size: 5rem;
+    font-weight: bolder;
+    color: #5AC14C;
+}
+
+.visor 
+{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.botoes
+{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.botoes_designer
+{
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: #5AC14C solid 2px;
+    border-radius: 10px;
+    font-family: 'Krona One', sans-serif;
+    
+}
+
+.botoes_designer:hover
+{
+    background-color: rgb(36, 34, 34);
+    cursor: pointer;
+}
+
+@media (max-width: 450px) {
+
+    .titulo
+{
+    font-size: 4rem;
+
+}
+
+
+.botoes_designer
+{
+    font-size: 0.8rem;
+    padding: 10px;
+    
+}
+
+}

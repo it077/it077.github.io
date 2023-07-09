@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/logo2.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../styles/contato.css"/>
+    <title>Contatos</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__posicionamento">
+            <a class="cabecalho__posicionamento__designer" href="../index.html">Home</a>
+            <a class="cabecalho__posicionamento__designer" href="calculadora.html">Calculadora</a>
+            <a class="cabecalho__posicionamento__designer" href="cronometro.html">Cronômetro</a>
+            <a class="cabecalho__posicionamento__designer" href="contato.html">Contato</a> 
+            
+        </nav>
+    </header>
+    <main class="container">
+        <h1 class="titulo">Contato</h1>
+        <h2 class="subtitulo">Preencha suas informações de contato:</h2>
+         <form action="./captura.html" method="post">
+            <div class="redes">
+                <label for="instagram">INSTAGRAM</label>
+                <input type="text" name="instagram" placeholder="@usuario" required>
+            </div>
+            <div class="redes">
+                <label for="zapzap">WHATSAPP</label>
+                <input type="text" name="zapzap" placeholder=" 11 94333 3333" required>
+            </div>
+            <div class="redes">
+                <label for="facebook">FACEBOOK</label>
+                <input type="text" name="facebook" placeholder="Nome">
+            </div>
+            <div class="redes">
+                <label for="motivo">Motivo do contato</label>
+                <textarea class="deisgner__motivo" name="motivo" id="motivo" cols="25" rows="5"></textarea>
+            </div>
+            <div>
+                <div class="subtitulo">Preferência de contato:</div>
+                <input class="radio" type="radio" name="preferencia" value="instagram" id="instagram" checked>
+                <label for="instagram">Instagram</label>
+                <input class="radio" type="radio" name="preferencia" value="whatsapp" id="whatsapp">
+                <label for="whatsapp">Whatsapp</label>
+                <input class="radio" type="radio" name="preferencia" value="facebook" id="facebook">
+                <label for="facebook">Facebook</label>
+            </div>
+            <div class="botoes">
+                <button class="botoes_designer">
+                    Enviar
+                </button>
+                <button class="botoes_designer" type="reset">
+                    Limpar formulario
+                </button>
+            </div>
+         </form>
+    </main>
+</body>
+</html>

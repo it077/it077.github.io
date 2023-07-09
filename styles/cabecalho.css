@@ -1,0 +1,25 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital@1&display=swap');
+:root {
+
+    --cor3: #5AC14C;
+}
+
+.cabecalho
+{
+    margin-top: 2%;
+}
+.cabecalho__posicionamento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+.cabecalho__posicionamento__designer {
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor3);
+    text-decoration: none;
+}

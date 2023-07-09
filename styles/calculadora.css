@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital@1&display=swap');
+@import url('cabecalho.css');
+
+:root {
+    --cor-da-calculadora: rgba(35, 232, 9, 0.5);
+    --cor-da-calculadoraHover: rgba(35, 232, 9, 0.5);
+    
+  }
+
+body {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+.posicionamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 15%;
+    justify-content: space-between;
+    gap: 82px
+    
+}
+
+.posicionamentoDoCabecalhoeDaLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.designerDoCabecalho {
+    font-family: 'Krona One', sans-serif;
+    font-size: 2.25rem;
+    text-decoration: none;
+    color: var(--cor-da-calculadora);
+
+}
+
+.logoIto {
+    width: 160px;
+}
+
+.designerDaCalculadora_Corpo {
+    width: 400px;
+    height: 650px;
+    border: solid 5px var(--cor-da-calculadora);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+    
+}
+
+.designerDaCalculadora_Visor {
+    font-family: 'Antonio', sans-serif;
+    font-size: 0.7rem;
+    width: 350px;
+    height: 150px;
+    border: solid 5px var(--cor-da-calculadora);
+    border-radius: 25px;
+    margin: 25px 0px 0px 0px;
+
+
+}
+
+.numerosDoVisor {
+    width: 340px;
+    height: 150px;
+    font-size: 6.25rem;
+    color: var(--cor-da-calculadora);
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    
+}
+
+.designerDaCalculadora_Teclas {
+    width: 350px;
+    height: 400px;
+    border: solid 5px var(--cor-da-calculadora);
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+.alinhamentoDosBotoes {
+    display: flex;
+    justify-content: center;
+
+}
+
+.designerBotoes {
+    font-family: 'Antonio', sans-serif;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: var(--cor-da-calculadora);
+    border: solid 5px var(--cor-da-calculadora);
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+
+.designerBotoes:hover {
+    background-color: rgb(41, 41, 41);
+    color: var(--cor-da-calculadoraHover);
+    border: solid 5px var(--cor-da-calculadoraHover);
+}
+
+
+
